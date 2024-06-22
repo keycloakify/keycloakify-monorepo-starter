@@ -1,0 +1,13 @@
+{
+  "name": "keycloakify-monorepo-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm recursive run build",
+    "build-keycloak-theme": "pnpm --filter ./packages/keycloak-theme run build-keycloak-theme"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
